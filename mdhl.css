@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+header{
+    background-image: url(./issets/fondoarticulo.jpg);
+    background-color:#424874c4;
+    background-blend-mode: soft-light;
+    background-position: 50% 30%;
+    height: 30vh;
+    display: flex;
+}
+body{
+    background-image: url(./issets/fondo5.jpg);
+    background-color:  rgba(0,0,0,0.5);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    color: white;
+}
+footer{
+    height: 2rem;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    color:white;
+    text-shadow:6px 6px 6px #424874;
+}
+h1{
+    font-size: 50px;
+    text-shadow:2px 3px 3px#DCD6F7;
+    text-align: end;
+    padding: 0.5rem;
+}
+nav{
+    padding-bottom: 2rem;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 4px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 2px 5px;
+}
+nav>a:hover,.active{
+    background-color:white;
+    color: #424874;
+}
+main{
+    min-height: 70vh;
+}
+.alignsep{
+    text-align: right;
+    padding-right: 3rem;
+}
+.logo{
+    height: 10rem;
+}
+.ublogo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    width: 22vw;
+}
+.cajatitulo{
+    width:78vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h2{
+    background-color: white;
+    color:#424874;
+    padding: 0.2rem;
+    border: 2px solid #424874;
+    text-align: center;
+}
+.cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.sectionhome{
+    background-color:#424874a1;
+    border-radius: 8px;
+    padding:1rem;
+    font-size: 20px;
+    margin: 1rem
+}
+.posicion1{
+    margin: 1rem;
+}
+.imagen1,.imagen2,.imagen3{
+    height: 18rem;
+    border-radius: 8px;
+}
+section>p{
+    text-indent: 20px;
+    margin-bottom: 1rem;
+}
+.cuerpo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.articleabout{
+    background-color:#424874a1;
+    border-radius: 8px;
+    width: 60%;
+    padding: 1rem;
+    margin:2rem;
+    font-size: 20px;
+}
+article>p{
+    text-indent: 20px;
+}
+h3{
+    font-style: italic;
+}
+.cuerpo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+.correo{
+    background-color:#424874a1;
+    border-radius: 8px;
+    width: 40%;
+    padding: 1rem;
+    margin:2rem;
+    font-size: 20px;
+    margin-bottom: 10rem;
+}
+.mail{
+    text-decoration: none;
+    color:#A6B1E1 ;
+    font-weight: bold;
+    font-style: italic;
+}
+.cuerpo4{
+    background-color:#424874a1;
+    border-radius: 8px;
+    min-height: 60vh;
+    padding: 3rem;
+    margin:5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo4 dd, .cuerpo4 p{
+    text-indent: 20px;
+}
+.centrartexto{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.separar{
+    padding-top: 1rem;
+}
+ul{
+    margin-left: 2rem;
+    list-style-type:circle;
+}
+dt{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+.cajatabla{
+    background-color:#424874a1;
+    border-radius: 8px;
+    min-height: 60vh;
+    padding: 2rem;
+    margin:auto;
+    margin-top: 2rem;
+    font-size: 18px;
+    width: 70%;
+    padding: 2rem;
+}
+table{
+    width: 80%;
+}
+caption{
+    text-decoration: underline;
+}
+td,th,caption{
+    padding-top: 0.8rem;
+    text-align: left;
+}
+.titulotabla{
+    text-align: center;
+    font-size: 26px;
+    font-style: italic;
+    width: 100%;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 1.5rem;
+    
+}
+form{
+    width: 70%;
+    background-color:#424874a1;
+    font-size: 20px;
+    
+}
+fieldset, label{
+    padding: .5rem;
+}
+.block{
+    display: block;
+    width: 100%;
+}
+.vertical{
+    display: flex;
+}
+.vertical2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1rem;
+    align-items: flex-end;
+}
+.icon{
+    text-align: center;
+}
+.maps{
+    min-height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    background-color:#424874a1;
+    border-radius: 8px;
+    padding: 2rem;
+    gap: 2rem;
+}
+.information{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+td>a{
+    color: white;
+}
+input,select{
+    background-color:#424874;
+    color: white;
+}
+.submit{
+    font-size: 20px;
+    padding: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-weight: bold;
+}

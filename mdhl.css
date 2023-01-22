@@ -10,7 +10,7 @@ header{
     background-color:#424874c4;
     background-blend-mode: soft-light;
     background-position: 50% 30%;
-    height: 30vh;
+    min-height: 30vh;
     display: flex;
 }
 body{
@@ -72,6 +72,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 h2{
     background-color: white;
@@ -269,4 +270,83 @@ input,select{
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-weight: bold;
+}
+
+@media (max-width: 768px){
+    h1{
+        font-size: 40px;
+        text-shadow:2px 3px 3px#DCD6F7;
+        text-align: end;
+        padding: 0.5rem;
+    }
+    .navegador {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0.5rem;
+}
+nav>a{
+    margin: 3px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding: 1px 4px;
+}
+
+.logo{
+    height: 8rem;
+}
+.toggle-menu{
+    
+    display: none;
+  
+}
+
+}
+@media (max-width: 425px){
+    .navegador {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        padding-left: 1rem;
+        margin-left: 1rem;
+}
+.ublogo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 22vw;
+}
+nav>a{
+    margin: 3px;
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+    padding: 1px 4px;
+}
+h1{
+    font-size: 35px;
+    text-shadow:2px 3px 3px#DCD6F7;
+    text-align: end;
+    padding: 0.5rem;
+}
+.logo{
+    height: 6rem;
+}
+.toggle-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.icono{
+    max-width: 5rem;
+}
+}
+
+@media (max-width: 375px){
+   
 }

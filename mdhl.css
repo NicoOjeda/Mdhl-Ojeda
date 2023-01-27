@@ -115,7 +115,7 @@ section>p{
     border-radius: 8px;
     width: 60%;
     padding: 1rem;
-    margin:2rem;
+    margin:1rem;
     font-size: 20px;
 }
 article>p{
@@ -209,14 +209,11 @@ td,th,caption{
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 1.5rem;
-    
 }
 form{
     width: 70%;
     background-color:#424874a1;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 fieldset, label{
     padding: .5rem;
@@ -276,7 +273,7 @@ input,select{
     display: none;
   
 }
-label,input{
+.check{
     display: none;
 }
 @media (max-width: 768px){
@@ -306,10 +303,51 @@ nav>a{
 .cuerpo{
     display: flex;
     flex-direction: column;
-  
 }
+.cuerpo2{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
 .imagen1,.imagen2,.imagen3{
     height: 16rem;  
+}
+.articleabout{
+    width: 90%;
+    font-size: 18px;
+}
+.cuerpo4{
+    width: 90%;
+    padding: 2rem;
+    margin:auto;
+    margin-top: 1rem;
+    font-size: 16px;
+}
+.formulario{
+    width: 100%;
+    margin-top: 1rem; 
+}
+form{
+    width: 95%;
+    font-size: 16px; 
+}
+fieldset, label{
+    padding: .3rem;
+}
+.cajatabla{
+    padding: 0.1rem;
+    margin-top: 1rem;
+    font-size: 1px;
+    width: 90%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alignsep{
+    text-align: center;
+    padding-right: 2rem;
 }
 }
 @media (max-width: 425px){
@@ -350,7 +388,7 @@ h1{
 .navegador{
     padding: 0;
 }
-label{
+.navegador>label{
     display: block;
 }
 #check~a{
@@ -359,9 +397,75 @@ label{
 #check:checked ~a{
     display: block;
 }
-
 .icono{
     max-width: 5rem;
+}
+.articleabout{
+    width: 95%;
+    font-size: 15px;
+}
+.imagen2{
+    height: 14rem;  
+}
+h2{
+    font-size: 1.2em;
+}
+.cuerpo3{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.correo{
+    width: 90%;
+    padding: 1rem;
+    margin:1rem;
+    font-size: 18px; 
+}
+.imagen3{
+    height: 14rem;  
+}
+.titulotabla{
+    font-size: 20px;
+    width: 100%;
+}
+
+.separar{
+    font-size: 14px;
+}
+.cuerpo4{
+    width: 90%;
+    padding: 1rem;
+    font-size: 14px;
+}
+.submit{
+    font-size: 14px;
+    
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-weight: bold;
+}
+.cajatabla{
+    padding: 0;
+    margin:auto;
+    margin-top: 1rem;
+    font-size: 14px;
+    width: 95%;
+    padding: 0.2rem;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.alignsep{
+    text-align: center;
+    padding-right: 0.5rem;
+}
+.maps{
+    width: 80%;
+    margin: auto;
+    margin-top: 0.1rem;
+    padding: 1rem;
+    gap: 0.6rem;
 }
 }
 
@@ -371,5 +475,53 @@ label{
     }
     .logo{
         height: 4rem;
+    }
+    .articleabout{
+        width:100%;
+        font-size: 13px;
+    }
+    .imagen2{
+        height: 10rem;  
+    }
+    h1{
+        font-size: 32px;
+    }
+    h2{
+        font-size: 1.2em;
+    }
+    h5{
+        font-size: 12px;
+    }
+    .correo{
+        width: 100%;
+        padding: 1rem;
+        margin:1rem;
+        font-size: 15px; 
+    }
+    .imagen3{
+        height: 12rem;  
+    }
+    .titulotabla{
+        font-size: 16px;
+        width: 100%;
+    }
+    form{
+        width: 95%;
+        font-size: 14px; 
+    }
+    .separar{
+        font-size: 12px;
+    }
+    .cuerpo4{
+        width: 95%;
+        padding: 1rem;
+        font-size: 12px;
+    }
+    .maps{
+        width: 80%;
+        margin: auto;
+        margin-top: 0.3rem;
+        padding: 1rem;
+        gap: 0.6rem;
     }
 }

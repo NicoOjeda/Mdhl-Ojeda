@@ -85,7 +85,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    min-height: 60vh;
 }
 .sectionhome{
     background-color:#424874a1;
@@ -271,7 +271,14 @@ input,select{
     padding-right: 0.5rem;
     font-weight: bold;
 }
-
+.toggle-menu{
+    
+    display: none;
+  
+}
+label,input{
+    display: none;
+}
 @media (max-width: 768px){
     h1{
         font-size: 40px;
@@ -296,12 +303,14 @@ nav>a{
 .logo{
     height: 8rem;
 }
-.toggle-menu{
-    
-    display: none;
+.cuerpo{
+    display: flex;
+    flex-direction: column;
   
 }
-
+.imagen1,.imagen2,.imagen3{
+    height: 16rem;  
+}
 }
 @media (max-width: 425px){
     .navegador {
@@ -312,6 +321,9 @@ nav>a{
         align-items: flex-end;
         padding-left: 1rem;
         margin-left: 1rem;
+}
+.sectionhome{
+    font-size: 16px;
 }
 .ublogo {
     display: flex;
@@ -335,18 +347,29 @@ h1{
 .logo{
     height: 6rem;
 }
-.toggle-menu{
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 1rem;
-    cursor: pointer;
+.navegador{
+    padding: 0;
 }
+label{
+    display: block;
+}
+#check~a{
+    display: none;
+}
+#check:checked ~a{
+    display: block;
+}
+
 .icono{
     max-width: 5rem;
 }
 }
 
 @media (max-width: 375px){
-   
+    .imagen1,.imagen2,.imagen3{
+        height: 12rem;  
+    }
+    .logo{
+        height: 4rem;
+    }
 }

@@ -1,1 +1,1 @@
-# Mdhl-Ojeda
+Desarrollo de un sitio web para una liga de hockey, el cual debía tener información de los juegos, formulario de registro y una tabla con información y ubicación de los campos de entrenamiento. El front-end fue desarrollado con Html y Css.
